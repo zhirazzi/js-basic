@@ -32,7 +32,8 @@ Use `console.log` to display:
 - The person's job
 
 ```javascript
-// your code here
+console.log(name);
+console.log(age);
 ```
 
 ---
