@@ -83,7 +83,15 @@ Create an object `student` with:
 Print `student`'s city.
 
 ```javascript
-// your code here
+const student = {
+    name: "Alice",
+    age: 90,
+    address: {
+        city: "Jakarta",
+        country: "Indonesia"
+    }
+}
+console.log(student.address.city)
 ```
 
 ---
