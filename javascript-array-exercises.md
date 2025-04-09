@@ -97,7 +97,8 @@ console.log(hasBanana);
 Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
-// your code here
+const index = fruits.indexOf("Orange");
+console.log = (index);
 ```
 
 ---
