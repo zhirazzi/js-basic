@@ -25,7 +25,7 @@ Print the first and the last element of the `fruits` array.
 
 ```javascript
 console.log(fruits[0])
-console.log(fruits[2])
+console.log([fruits.length - 1])
 ```
 
 ---
@@ -87,7 +87,7 @@ Check if `"Banana"` exists in the `fruits` array.
 Expected output → `true` or `false`
 
 ```javascript
-console.log(hasBanana);
+console.log(fruits.includes("Banana"));
 ```
 
 ---
@@ -97,8 +97,7 @@ console.log(hasBanana);
 Find the index of `"Orange"` in the `fruits` array.
 
 ```javascript
-const index = fruits.indexOf("Orange");
-console.log = (index);
+console.log(fruits.indexOf("Orange"));
 ```
 
 ---
@@ -110,8 +109,7 @@ Convert the `fruits` array to a single string separated by commas.
 Example output → `"Apple,Banana,Orange"`
 
 ```javascript
-result = ",".join(fruits)
-print(result)
+console.log(fruits.join(","));
 ```
 
 ---
