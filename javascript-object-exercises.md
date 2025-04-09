@@ -32,8 +32,8 @@ Use `console.log` to display:
 - The person's job
 
 ```javascript
-console.log(name);
-console.log(age);
+console.log(person.name);
+console.log(person.age);
 ```
 
 ---
@@ -91,7 +91,7 @@ const student = {
         country: "Indonesia"
     }
 }
-console.log(student.address.city)
+console.log(student.address.city);
 ```
 
 ---
@@ -112,6 +112,7 @@ const person = {
     hobby: "Reading",
     greet: function() {
     return "Hi, my name is " + this.name;
+    }
 }
 
 console.log(person.greet());
